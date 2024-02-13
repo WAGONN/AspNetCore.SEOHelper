@@ -1,9 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <AssemblyName>WAGONN.AspNetCore.SEOHelper.Test</AssemblyName>
+
+    <RootNamespace>WAGONN.AspNetCore.SEOHelper.Test</RootNamespace>
+
+    <LangVersion>12</LangVersion>
+
+    <PackageId>WAGONN.AspNetCore.SEOHelper.Test</PackageId>
+
+    <Authors>WAGONN.AspNetCore.SEOHelper.Test</Authors>
+
+    <Company>WAGONN.AspNetCore.SEOHelper.Test</Company>
+
+    <Product>WAGONN.AspNetCore.SEOHelper.Test</Product>
+
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>

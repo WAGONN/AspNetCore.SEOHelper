@@ -1,15 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Authors>Istiaque Chowdhury</Authors>
-    <Company>codingwithesty.com</Company>
+    <Authors>WAGONN IT &amp; Consultancy</Authors>
+    <Company>WAGONN IT &amp; Consultancy</Company>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Copyright>Copyright 2001 - 2020 codingwithesty.com</Copyright>
+    <Copyright>Copyright 2018 - 2024 wagonn.net</Copyright>
     <PackageTags>Robots.txt, sitemap.xml , SEO</PackageTags>
-    <Description>Search Engine managemnet tools.</Description>
+    <Description>Search Engine managemnet tools. forked AspNetCore.SEOHelper</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageId>WAGONN.AspNetCore.SEOHelper</PackageId>
+    <PackageProjectUrl>https://github.com/WAGONN/AspNetCore.SEOHelper</PackageProjectUrl>
+    <AssemblyName>WAGONN.AspNetCore.SEOHelper</AssemblyName>
+    <RootNamespace>WAGONN.AspNetCore.SEOHelper</RootNamespace>
+    <LangVersion>12</LangVersion>
+    <Product>WAGONN.AspNetCore.SEOHelper</Product>
+    <NeutralLanguage>tr</NeutralLanguage>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
