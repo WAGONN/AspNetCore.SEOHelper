@@ -8,9 +8,9 @@ namespace AspNetCore.SEOHelper
 {
     public static class XMLSitemapMiddlewareExtensions
     {
-        public static IApplicationBuilder UseXMLSitemap(this IApplicationBuilder builder, string rootPath)
+        public static IApplicationBuilder UseXMLSitemap(this IApplicationBuilder builder, string rootPath, string customFileName = "sitemap.xml")
         {
-            return builder.MapWhen(ctx => ctx.Request.Path.StartsWithSegments("/sitemap.xml"), b =>
+            return builder.MapWhen(ctx => ctx.Request.Path.StartsWithSegments($"/{customFileName}"), b =>
                 b.UseMiddleware<XMLSitemapMiddleware>(rootPath));
         }
     }
